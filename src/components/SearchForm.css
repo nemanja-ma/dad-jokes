@@ -1,0 +1,28 @@
+.search-form {
+    display:flex;
+    flex-direction: column;
+}
+.search-form input {
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    background-color: #fff;
+    padding: 0.5rem;
+    vertical-align: top;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgb(0, 0, 0, 0.16), 0 0 0 1px rgb(0, 0, 0, 0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0, 0, 1);
+    margin-bottom: 1rem;
+}
+
+.search-form input:focus {
+    box-shadow: 0 3px 8px 0 rgb(0, 0, 0, 0.2), 0 0 0 1px rgb(0, 0, 0, 0.08);
+}
+
+.button {
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 2px;
+    font: 16px arial, sans-serif;
+}
